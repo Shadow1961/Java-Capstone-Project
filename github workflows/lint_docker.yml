@@ -1,0 +1,16 @@
+on: [push, pull_request]
+
+jobs:
+  dockerlint:
+
+  runs-on: ubuntu-latest
+
+  name: Lint Dockerfiles
+
+  steps:
+    - uses: actions/checkout@v3
+
+    - name: Run hadolint
+
+    with:
+      dockerfile: ./CMSSystem/Dockerfile

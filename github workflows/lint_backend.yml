@@ -1,0 +1,17 @@
+on: [push, pull_request]
+
+jobs:
+  lint-java:
+  runs-on: ubuntu-latest
+  name: Checkstyle Java Linting
+  steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up JDK
+
+    with:
+
+      distribution: 'temurin'
+
+      java-version: '23'
+
