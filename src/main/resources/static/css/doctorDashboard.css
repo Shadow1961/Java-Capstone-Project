@@ -1,0 +1,85 @@
+.table-header {
+  font-size: 26px;
+  color: #015c5e;
+  margin-bottom: 31px;
+  margin-right: 0;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial;
+  margin-top: 21px;
+}
+
+thead {
+  background-color: #33333310;
+  color: #fff;
+}
+
+td, th{
+  padding: 10px 14px;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tbody tr:hover {
+  background-color: #010c5d39;
+}
+
+
+.prescription-btn {
+  width: 32px;
+  height: 31px;
+  cursor: pointer;
+}
+
+.prescription-btn:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+.prescription-btn:active {
+  transform: scale(0.95);
+}
+
+
+.noPatientRecord {
+  font-size: 18px;
+  font-style: bold;
+  color: gray;
+  text-align: center;
+  margin-top: 23px;
+}
+
+
+#todayButton {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #015c5d;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: italic;
+}
+
+#todayButton:hover {
+  background-color: #013f40;
+}
+
+
+#datePicker {
+  margin-left: 12px;
+  margin-top: 14px;
+  border-radius: 10px;
+  padding: 12px;
+  height: 31px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}

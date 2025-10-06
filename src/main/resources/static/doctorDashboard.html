@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <title>Doctor Dashboard</title>
+
+
+        <link rel="stylesheet" href="css/doctorDashboard.css">
+        <link rel="stylesheet" href="css/style.css">
+
+
+        <script defer src="js/util.js"></script>
+        <script defer src="js/render.js"></script>
+        <script defer src="js/header.js"></script>
+        <script defer src="js/footer.js"></script>
+        <script defer type="module" src="js/doctorDashboard.js"></script>
+
+    </head>
+
+
+    <body onload="renderContent()">
+
+        <div class="container">
+            <div class="wrapper">
+
+                <div id="header"></div>
+
+
+                <div class="main-content">
+                    <h1>Doctor Dashboard</h1>
+
+                    <!-- Search -->
+                    <input type="text" id="searchBar" class="searchBar" placeholder="Search Bar " />
+
+                    <!-- Filter-->
+                    <div class="filters">
+                        <button id="todayButton" class="dashboard-btn">Appointments today</button>
+                        <input type="date" id="datePicker" class="date-filter" />
+                    </div>
+
+                    <!-- Patient Table -->
+                    <table class="patient-table">
+                        <thead>
+                        <tr>
+                            <th>Patient ID</th>
+                            <th>Name</th>
+                            <th>Phone No.</th>
+                            <th>Email</th>
+                            <th>Prescription</th>
+                        </tr>
+                        </thead>
+
+                    </table>
+                </div>
+
+                <!-- Footer-->
+
+                <div id="footer"></div>
+
+            </div>
+        </div>
+    </body>
+
+</html>

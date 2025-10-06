@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <Title>Admin Dashboard</Title>
+
+        <link rel="stylesheet" href="css/adminDashboard.css">
+        <link rel="stylesheet" href="css/style.css">
+
+
+        <script defer src="../js/util.js}"></script>
+        <script defer src="../js/render.js}"></script>
+        <script defer src="../js/header.js}"></script>
+        <script defer src="../js/footer.js}"></script>
+
+    </head>
+
+
+    <body>
+
+        <div class="container">
+
+            <div class="wrapper">
+
+                <div id="header"></div>
+
+                <main class="main-content">
+
+                    <h1>Admin Dashboard</h1>
+
+                    <!--Search-->
+                    <input type="text" id="searchBar" placeholder="Search Doctors by Name..." class="search-input" />
+
+                    <!-- Filters-->
+                    <div class="filters">
+
+                        <select id="timeFilter">
+
+                            <option value="">Filter by Time</option>
+                            <option value="AM">AM</option>
+                            <option value="PM">PM</option>
+
+                        </select>
+
+                        <select id="specialtyFilter">
+
+                            <option value="">Filter by Specialty</option>
+                            <option value="Psychologist">Psychologist</option>
+                            <option value="Neurologist">Neurologist</option>
+                            <option value="Dermatologist">Dermatologist</option>
+                            <option value="Dentist">Dentist</option>
+                            <option value="General">General</option>
+
+                        </select>
+
+                        <!-- Add a Doctor Button -->
+
+                        <button id="addDoctorBtn" class="dashboard-btn">Add Doctor</button>
+
+                    </div>
+
+                </main>
+
+
+            </div>"
+
+
+         </div>
+
+
+    </body>
+
+
+</html>
